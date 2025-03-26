@@ -45,7 +45,7 @@ let rotationSpeed2 = 0.05; // Velocidad de rotación del segundo cubo
 let rotationSpeed3 = 0.01; // Velocidad de rotación del tercer cubo
 
 function animate() {
-    // Rotación de los cubos con diferentes velocidades
+  
     cube1.rotation.x += rotationSpeed1;
     cube1.rotation.y += rotationSpeed1;
 
@@ -57,6 +57,4 @@ function animate() {
 
     renderer.render(scene, camera);
 }
-
-// Iniciar la animación
-renderer.setAnimationLoop(animate);
+  renderer.setAnimationLoop(animate);
